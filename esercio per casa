@@ -10,16 +10,7 @@ parola = input("Scrivi una parola che non capisci (usa solo lettere maiuscole!):
 
 if parola in meme_dict.keys():
     # Cosa fare se la parola è stata trovata?
-    if parola == "CRINGE":
-        print("Qualcosa di eccezionalmente strano o imbarazzante")
-    elif parola == "LOL":
-        print("Una risposta comune a qualcosa di divertente")
-    elif parola == "SHEESH":
-        print("leggera disapprovazione")
-    elif parola == "CREEPY":
-        print("spaventoso, inquietante")
-    elif parola == "PARA":
-        print("preoccuparsi per qualcosa, paranoiarsi")
+    print(meme_dict[])
 else:
     # Cosa fare se la parola non è stata trovata?
     print("mi dispiace ma questa parola non esiste nel dizionario")
