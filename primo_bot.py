@@ -34,13 +34,4 @@ async def gen_emodji(ctx):
 async def password(ctx, count_password:int):
     await ctx.send(random.choice(caratteri) * count_password)
 
- 
-
-def flip_coin():
-    flip = random.randint(0, 2)
-    if flip == 0:
-        return "HEADS"
-    else:
-        return "TAILS"
-
-bot.run("Metti il tuo token")
+bot.run("Metti i token")
